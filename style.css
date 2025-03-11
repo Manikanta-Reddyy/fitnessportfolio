@@ -207,6 +207,79 @@ body {
 }
 
 .card__items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+    padding-top: 150px;
+    margin: -80px 50px 0px 50px;
+    overflow: hidden;
+}
+
+.card__row {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.card__item_1 {
+    flex: 1;
+}
+
+.card__item_1 img {
+    width: 447px;
+    height: 500px;
+}
+
+.card__item_2 {
+    flex: 1;
+}
+
+.card__item_2 img {
+    width: 447px;
+    height: 500px;
+}
+
+.card__item_3 {
+    flex: 1;
+}
+
+.card__item_3 img {
+    width: 447px;
+    height: 500px;
+}
+
+.card__item_4 {
+    flex: 1;
+}
+
+.card__item_4 img {
+    width: 328px;
+    height: 500px;
+}
+
+.card__item_5 {
+    flex: 1;
+}
+
+.card__item_5 img {
+    width: 328px;
+    height: 500px;
+}
+
+.card__item_6 {
+    flex: 2;
+}
+
+.card__item_6 img {
+    width: 686px;
+    height: 500px;
+}
+
+/* grid */
+/* 
+
+.card__items {
     display: grid;
     grid-template-rows: 50%, 50%;
     grid-template-columns: repeat(12, 1fr);
@@ -276,4 +349,4 @@ body {
     width: 686px;
     height: 500px;
 }
-
+ */
